@@ -1,0 +1,18 @@
+#include<stdio.h>// E/S
+int m;
+int n;
+int o=1;
+int i=0;
+int main()
+{
+	scanf("%d",m);
+	scanf("%d",n);
+	while(o<=m)
+	{
+		i=i+n;
+		o=o+1;	
+	}
+	printf("%d",i);
+
+}
+
